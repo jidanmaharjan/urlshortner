@@ -35,4 +35,4 @@ const authSchema = new mongoose.Schema<IAuth, Model<IAuth>>({
   },
 });
 
-module.exports = mongoose.model("Auth", authSchema);
+export default authSchema;
